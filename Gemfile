@@ -31,7 +31,7 @@ gem 'thin'
 gem 'foreman', '~> 0.64.0' # v0.65.0 breaks support for the older upstart on RHEL 6
 
 gem 'config'
-gem 'listen'
+gem 'listen', '>= 3.1.5'
 
 # Sidekiq specific gems
 gem 'sidekiq', '~> 4.1.1'
@@ -43,7 +43,7 @@ gem 'slim'
 gem 'active_bugzilla'
 gem 'minigit',        '~> 0.0.4'
 gem 'tracker_api',    '~> 1.6'
-gem 'travis',         '~> 1.7.6'
+gem 'travis', '~> 1.7.7'
 
 gem 'awesome_spawn',        '>= 1.4.1'
 gem 'default_value_for'
