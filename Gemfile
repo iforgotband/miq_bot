@@ -42,7 +42,7 @@ gem 'slim'
 # Services gems
 gem 'active_bugzilla'
 gem 'minigit',        '~> 0.0.4'
-gem 'tracker_api',    '~> 1.6'
+gem 'tracker_api', '~> 1.8', '>= 1.8.0'
 gem 'travis',         '~> 1.7.6'
 
 gem 'awesome_spawn',        '>= 1.4.1'
