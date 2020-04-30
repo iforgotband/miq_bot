@@ -7,7 +7,7 @@ gem 'rails', '~> 4.2.4'
 gem 'pg'
 
 # InfluxDB for Github rate limit tracking
-gem 'influxdb', '~>0.3.13'
+gem 'influxdb', '~> 0.3.17'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -43,7 +43,7 @@ gem 'slim'
 gem 'active_bugzilla'
 gem 'minigit',        '~> 0.0.4'
 gem 'tracker_api',    '~> 1.6'
-gem 'travis',         '~> 1.7.6'
+gem 'travis', '~> 1.7.7'
 
 gem 'awesome_spawn',        '>= 1.4.1'
 gem 'default_value_for'
