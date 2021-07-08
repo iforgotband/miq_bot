@@ -42,8 +42,8 @@ gem 'slim'
 # Services gems
 gem 'active_bugzilla'
 gem 'minigit',        '~> 0.0.4'
-gem 'tracker_api',    '~> 1.6'
-gem 'travis',         '~> 1.7.6'
+gem 'tracker_api', '~> 1.8', '>= 1.8.0'
+gem 'travis', '~> 1.7.7'
 
 gem 'awesome_spawn',        '>= 1.4.1'
 gem 'default_value_for'
@@ -52,7 +52,7 @@ gem 'more_core_extensions', '~> 2.0.0',  :require => 'more_core_extensions/all'
 gem 'rubocop',              '~> 0.47.0', :require => false
 gem 'rugged',                            :require => false
 
-gem 'octokit', '~> 4.6.0', :require => false
+gem 'octokit', '~> 4.6.2', :require => false
 gem 'faraday', '~> 0.9.1'
 gem 'faraday-http-cache', '~> 2.0.0'
 
@@ -63,6 +63,6 @@ group :development, :test do
 end
 
 group :test do
-  gem 'webmock'
+  gem 'webmock', '>= 3.0.1'
   gem 'factory_girl_rails'
 end
